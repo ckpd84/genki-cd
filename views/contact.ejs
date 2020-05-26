@@ -1,49 +1,47 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-
+  <head>
     <%- include('./partials/head') %>
 
-    <link rel="stylesheet" href="/css/contact.css">
-    
-</head>
-<body>
-<%- include ('partials/header') %>
+    <link rel="stylesheet" href="/css/contact.css" />
+  </head>
+  <body>
+    <%- include ('partials/header') %>
 
-<!-- Empieza Main -->
-<div class="contact-container">
-    <h4>Contacto</h4>
-    <img src="/img/mapa.png" alt="mapa" width="654px">
-    <p><i class="fas fa-map-marker-alt"></i> Calle Falsa 1234, Ezeiza</p>
-    <p><i class="fas fa-clock"></i> Martes a Sábados de 20 a 24 hs</p>
-    <p><i class="fas fa-mobile"></i> 11-5555-5555</p>
-    <p><i class="fas fa-at"></i> genki@mail.com</p>
-    <div class="redes-conctac">
-        <a href="https://www.facebook.com/genkisushiAR/"><i class="fab fa-facebook"></i></a>
-        <a href="https://www.instagram.com/genkisushiar/"><i class="fab fa-instagram"></i></a>  
-    </div>    
-</div>
+    <!-- Empieza Main -->
+    <div class="contact-container">
+      <h4>Contacto</h4>
+      <img src="/img/mapa.png" alt="mapa" width="654px" />
+      <p><i class="fas fa-map-marker-alt"></i> Calle Falsa 1234, Ezeiza</p>
+      <p><i class="fas fa-clock"></i> Martes a Sábados de 20 a 24 hs</p>
+      <p><i class="fas fa-mobile"></i> 11-5555-5555</p>
+      <p><i class="fas fa-at"></i> genki@mail.com</p>
+      <div class="redes-conctac">
+        <a href="https://www.facebook.com/genkisushiAR/"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/genkisushiar/"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+    </div>
 
-  <!-- pie -->
- 
-  <%- include('./partials/footer') %>
+    <!-- pie -->
 
-  <%- include('./partials/scripts') %>
+    <%- include('./partials/footer') %> <%- include('./partials/scripts') %>
 
-  <script>
-    $(function() {
-      $(".toggle").on("click", function() {
+    <script>
+      $(function () {
+        $(".toggle").on("click", function () {
           if ($(".item").hasClass("active")) {
-              $(".item").removeClass("active");
-              $(this).find("a").html("<i class='fas fa-bars'></i>");
+            $(".item").removeClass("active");
+            $(this).find("a").html("<i class='fas fa-bars'></i>");
           } else {
-              $(".item").addClass("active");
-              $(this).find("a").html("<i class='fas fa-times'></i>");
+            $(".item").addClass("active");
+            $(this).find("a").html("<i class='fas fa-times'></i>");
           }
+        });
       });
-    });
     </script>
-    
-</body>
+  </body>
 </html>

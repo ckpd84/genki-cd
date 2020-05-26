@@ -1,7 +1,7 @@
 {
-  "name": "grupo_4_genkisushi",
+  "name": "genki-cd",
   "version": "1.0.0",
-  "description": "Proyecto integrador Digital House - Grupo 4",
+  "description": "Proyecto integrador Digital House - V2 - CD",
   "main": "app.js",
   "scripts": {
     "start": "nodemon ./bin/www"
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jcamblong/grupo_4_genkisushi.git"
+    "url": "git+https://github.com/ckpd84/genki-cd.git"
   },
-  "author": "Cecilia Denaro, Carolina Guzman, Jose Camblong",
+  "author": "Cecilia Denaro",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jcamblong/grupo_4_genkisushi/issues"
+    "url": "https://github.com/ckpd84/genki-cd"
   },
-  "homepage": "https://github.com/jcamblong/grupo_4_genkisushi#readme",
+  "homepage": "https://github.com/ckpd84/genki-cd/blob/master/README.md",
   "dependencies": {
     "bcrypt": "^3.0.8",
     "cookie-parser": "^1.4.4",
